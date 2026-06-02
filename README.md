@@ -21,33 +21,15 @@ Simply run the tool, wait for the scan to complete, and apply the generated sens
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 
-<img src="https://img.shields.io/badge/JSON-Data%20Storage-black?style=for-the-badge&logo=json">
+<img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white">
 
-<img src="https://img.shields.io/badge/Bash-Automation-green?style=for-the-badge&logo=gnubash">
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white">
 
-<img src="https://img.shields.io/badge/Termux-Supported-black?style=for-the-badge">
+<img src="https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white">
 
-<br><br>
-
-<img src="https://img.shields.io/badge/Android-10%2B-success?style=for-the-badge&logo=android">
-
-<img src="https://img.shields.io/badge/Free%20Fire-Optimized-orange?style=for-the-badge">
-
-<img src="https://img.shields.io/badge/Sensitivity-Generator-red?style=for-the-badge">
-
-<img src="https://img.shields.io/badge/Headshot-Optimized-purple?style=for-the-badge">
-
-<br><br>
-
-<img src="https://img.shields.io/badge/CPU-Benchmark-blue?style=for-the-badge">
-
-<img src="https://img.shields.io/badge/RAM-Analysis-green?style=for-the-badge">
-
-<img src="https://img.shields.io/badge/Refresh%20Rate-Detection-yellow?style=for-the-badge">
-
-<img src="https://img.shields.io/badge/Touch%20Response-Analysis-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/Free_Fire-FF6A00?style=for-the-badge&logoColor=white">
 
 </p>
 
@@ -72,17 +54,13 @@ Watch the complete setup and usage tutorial before running the tool.
 ### Download Required Files
 
 <p align="center">
+  <a href="https://f-droid.org/repo/com.termux_118.apk">
+    <img src="https://img.shields.io/badge/📱%20Download%20Termux-32CD32?style=for-the-badge">
+  </a>
 
-<a href="https://f-droid.org/repo/com.termux_118.apk">
-<img src="https://img.shields.io/badge/📱%20DOWNLOAD%20TERMUX-success?style=for-the-badge">
-</a>
-
-  
-
-<a href="https://github.com/ashishyadav210/FFsensi/archive/refs/heads/main.zip">
-<img src="https://img.shields.io/badge/📦%20DOWNLOAD%20FFSENSI%20ZIP-blue?style=for-the-badge">
-</a>
-
+  <a href="https://github.com/ashishyadav210/FFsensi/archive/refs/heads/main.zip">
+    <img src="https://img.shields.io/badge/📦%20Download%20FFsensi%20ZIP-1E90FF?style=for-the-badge">
+  </a>
 </p>
 
 ---
@@ -182,27 +160,9 @@ FFsensi/
 
 ## 🌐 Follow Us
 
-<p align="center">
 
-<a href="https://t.me/Unknown_Reason">
-<img src="https://img.shields.io/badge/💬%20Telegram-Join%20Now-229ED9?style=for-the-badge&logo=telegram&logoColor=white">
-</a>
 
- 
 
-<a href="https://youtube.com/@Unknown_Reason">
-<img src="https://img.shields.io/badge/▶️%20YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
-</a>
-
- 
-
-<a href="https://instagram.com/6_hf0">
-<img src="https://img.shields.io/badge/📸%20Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-</a>
-
-</p>
-
----
 
 <p align="center">
 
@@ -257,21 +217,6 @@ FFsensi/
 
 ---
 
-## 🤝 Community Support
-
-<p align="center">
-
-<a href="https://t.me/Unknown_Reason">
-<img src="https://img.shields.io/badge/💬%20Telegram-@Unknown__Reason-229ED9?style=for-the-badge&logo=telegram&logoColor=white">
-</a>
-
- 
-
-<a href="https://t.me/kirrychat">
-<img src="https://img.shields.io/badge/🚀%20Community-@kirrychat-0088cc?style=for-the-badge&logo=telegram&logoColor=white">
-</a>
-
-</p>
 
 
 ---
