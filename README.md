@@ -50,17 +50,17 @@ PC/laptop par test chalega lekin **asli specs + touch nahi padhenge**. Best resu
 1. Play Store se **Termux** install karo  
 2. Project folder phone me copy karo (USB / Telegram / Git)  
 3. Termux me:
+```termux-change-repo
+pkg update && pkg upgrade -y
+termux-setup-storage```
 
-```bash
-cd /sdcard/Download/FFsensi
-pkg update -y && pkg install -y python
-bash i0x.sh
+Open Folder Jis Folder Mein All Codes Hain
 ```
+cd /storage/shared/FFsensi
 
-Ya manually:
-
-```bash
-cd /path/to/FFsensi
+```
+Run 
+```
 python z_run.py
 ```
 
