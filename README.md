@@ -65,30 +65,7 @@ Watch the complete setup and usage tutorial before running the tool.
 
 ---
 
-<p align="center">
 
-<a href="https://youtu.be/VIDEO_ID">
-<img src="https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg" width="800">
-</a>
-
-</p>
-
----
-
-### 🎥 Direct Video Player
-
-<p align="center">
-
-<iframe
-width="800"
-height="450"
-src="https://www.youtube.com/embed/VIDEO_ID"
-title="FFsensi Full Tutorial"
-frameborder="0"
-allowfullscreen>
-</iframe>
-
-</p>
 
 # 📥 Installation
 
@@ -126,7 +103,7 @@ Allow Storage Permission
 ### Open FFsensi Folder
 
 ```bash
-cd storage/shared/Download/FFsensi
+cd storage/shared/Download/FFsensi-main
 ```
 
 ---
