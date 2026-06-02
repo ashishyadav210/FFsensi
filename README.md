@@ -55,14 +55,9 @@ pkg update && pkg upgrade -y
 termux-setup-storage```
 
 Open Folder Jis Folder Mein All Codes Hain
-```
-cd /storage/shared/FFsensi
-
-```
+```cd /storage/shared/FFsensi```
 Run 
-```
-python z_run.py
-```
+```python z_run.py```
 
 ---
 
@@ -73,8 +68,7 @@ python z_run.py
 Game **band** rakho, charging / cool phone better hai.
 
 ```bash
-python z_run.py
-```
+python z_run.py```
 
 ~8–10 second benchmark → screen par sensi → files `o0x/` me save.
 
