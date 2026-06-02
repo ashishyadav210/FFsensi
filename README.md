@@ -72,7 +72,7 @@ Run the following commands:
 ```bash
 termux-change-repo
 pkg update && pkg upgrade -y
-pkg install python -y
+pkg install python
 termux-setup-storage
 ```
 Allow Storage Permission 
