@@ -183,3 +183,7 @@ freefire-sensi-pro/
 ## Credits
 
 **@ZenDesh | Developer Sandesh & @URxFF team**
+
+## 🎥 Tutorial Video
+
+[![Watch Tutorial](https://img.shields.io/badge/YouTube-Watch_Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](YOUR_YOUTUBE_VIDEO_LINK)
