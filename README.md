@@ -2,6 +2,22 @@
 
 **Made by @ZenDesh | Developer Sandesh & @URxFF team**
 
+
+
+<p align="center">
+  <a href="https://instagram.com/6_hf0">
+    <img src="https://img.shields.io/badge/Instagram-@6_hf0-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+  </a>
+
+  <a href="https://t.me/Unknown_Reason">
+    <img src="https://img.shields.io/badge/Telegram-@Unknown_Reason-26A5E4?style=for-the-badge&logo=telegram&logoColor=white">
+  </a>
+
+  <a href="https://youtube.com/@Unknown_Reason">
+    <img src="https://img.shields.io/badge/YouTube-@Unknown_Reason-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
+  </a>
+</p>
+
 Free Fire ke liye **real sensitivity**. Koi saved/random sensi nahi — tumhare phone ki **specs + live power test** se values aati hain, headshot / ADS ke liye tuned.
 
 ---
