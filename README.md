@@ -1,183 +1,306 @@
 # URxFF Extreme Sensi Engine
 
-**Made by @ZenDesh | Developer Sandesh & @URxFF team**
+FFsensi is an advanced Free Fire Sensitivity Generator designed to create optimized sensitivity settings based on your device's real performance. Instead of using random sensitivity values from YouTube videos or websites, FFsensi analyzes your device specifications and performs live performance benchmarking to generate the most suitable sensitivity for your phone.
 
+The tool evaluates multiple factors including CPU performance, RAM speed, refresh rate, touch response, battery status, system load, and overall device power to calculate accurate sensitivity values. This helps players achieve smoother gameplay, improved drag control, better recoil management, and a more consistent headshot experience.
 
+Whether you're using a budget device or a flagship smartphone, FFsensi automatically adapts the generated sensitivity according to your hardware capabilities, providing a personalized sensitivity profile for every user.
+
+### ✨ Key Highlights
+
+* 📱 Real Device Detection
+* ⚡ Live CPU & RAM Benchmarking
+* 🎯 Headshot Optimized Sensitivity
+* 📊 Performance Based Calculations
+* 📄 TXT & JSON Output Files
+* 🚀 Quick Scan & Full Scan Modes
+* 🛠 Performance Boost Script Generation
+* 📲 Android & Termux Compatible
+
+Simply run the tool, wait for the scan to complete, and apply the generated sensitivity values inside Free Fire.
 
 <p align="center">
-  <a href="https://instagram.com/6_hf0">
-    <img src="https://img.shields.io/badge/Instagram-@6_hf0-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-  </a>
 
-  <a href="https://t.me/Unknown_Reason">
-    <img src="https://img.shields.io/badge/Telegram-@Unknown_Reason-26A5E4?style=for-the-badge&logo=telegram&logoColor=white">
-  </a>
+<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
 
-  <a href="https://youtube.com/@Unknown_Reason">
-    <img src="https://img.shields.io/badge/YouTube-@Unknown_Reason-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
-  </a>
+<img src="https://img.shields.io/badge/JSON-Data%20Storage-black?style=for-the-badge&logo=json">
+
+<img src="https://img.shields.io/badge/Bash-Automation-green?style=for-the-badge&logo=gnubash">
+
+<img src="https://img.shields.io/badge/Termux-Supported-black?style=for-the-badge">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Android-10%2B-success?style=for-the-badge&logo=android">
+
+<img src="https://img.shields.io/badge/Free%20Fire-Optimized-orange?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/Sensitivity-Generator-red?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/Headshot-Optimized-purple?style=for-the-badge">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/CPU-Benchmark-blue?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/RAM-Analysis-green?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/Refresh%20Rate-Detection-yellow?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/Touch%20Response-Analysis-red?style=for-the-badge">
+
 </p>
 
-Free Fire ke liye **real sensitivity**. Koi saved/random sensi nahi — tumhare phone ki **specs + live power test** se values aati hain, headshot / ADS ke liye tuned.
+# 📹 Tutorial Video
+
+Watch the complete setup and usage tutorial before running the tool.
+
+<p align="center">
+
+<a href="https://youtu.be/VIDEO_ID">
+<img src="https://img.shields.io/badge/▶️%20WATCH%20TUTORIAL%20ON%20YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
+</a>
+
+</p>
 
 ---
 
-## Fayde (kya milega)
+<p align="center">
 
-| Fayda | Detail |
-|--------|--------|
-| **Real sensi** | Phone model, RAM, screen, Hz, DPI, chipset + CPU/RAM/GFX benchmark se calculate |
-| **Headshot mode (HS)** | Strong phone + kam touch latency par General / Red Dot thodi zyada aggressive |
-| **ADS smooth ladder** | Red Dot → 2x → 4x → Sniper automatically step-down (recoil control) |
-| **3-run average** | Ek baar ka glitch kam — 3 baar test karke average |
-| **Power index** | Phone abhi kitna fast hai (0–100) — garmi / background apps ka effect dikhta hai |
-| **Touch & gameplay probe** | Touch sampling, battery, system load check |
-| **Phone boost scripts** | Optional: animations off, game mode, Free Fire performance boost (`b0x.sh`, `g0x.sh`) |
-| **Output files** | `o0x/` me `.txt` (copy-paste) + `.json` (record) |
+<a href="https://youtu.be/VIDEO_ID">
+<img src="https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg" width="800">
+</a>
 
-> **Legal & safe:** Game hack nahi. Files modify nahi hoti — sirf tum game settings me values daalte ho.
+</p>
 
 ---
 
-## Zaroori: phone par chalao
+### 🎥 Direct Video Player
 
-PC/laptop par test chalega lekin **asli specs + touch nahi padhenge**. Best result ke liye **Android phone + Termux** use karo.
+<p align="center">
+
+<iframe
+width="800"
+height="450"
+src="https://www.youtube.com/embed/VIDEO_ID"
+title="FFsensi Full Tutorial"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</p>
+
+# 📥 Installation
+
+### Download Required Files
+
+<p align="center">
+
+<a href="https://f-droid.org/repo/com.termux_118.apk">
+<img src="https://img.shields.io/badge/📱%20DOWNLOAD%20TERMUX-success?style=for-the-badge">
+</a>
+
+  
+
+<a href="https://github.com/ashishyadav210/FFsensi/archive/refs/heads/main.zip">
+<img src="https://img.shields.io/badge/📦%20DOWNLOAD%20FFSENSI%20ZIP-blue?style=for-the-badge">
+</a>
+
+</p>
 
 ---
 
-## Install (Termux)
+### Setup Termux
 
-1. Play Store se **Termux** install karo  
-2. Project folder phone me copy karo (USB / Telegram / Git)  
-3. Termux me:
-```termux-change-repo
+Run the following commands:
+
+```bash
+termux-change-repo
 pkg update && pkg upgrade -y
-termux-setup-storage```
-
-Open Folder Jis Folder Mein All Codes Hain
-```cd /storage/shared/FFsensi```
-Run 
-```python z_run.py```
-
+pkg install python -y
+termux-setup-storage
+```
+Allow Storage Permission 
 ---
 
-## Use kaise karein
-
-### 1) Full scan (recommended)
-
-Game **band** rakho, charging / cool phone better hai.
+### Open FFsensi Folder
 
 ```bash
-python z_run.py```
-
-~8–10 second benchmark → screen par sensi → files `o0x/` me save.
-
-### 2) Quick scan (kam time)
-
-```bash
-python z_run.py --q
-```
-
-### 3) Sirf phone info
-
-```bash
-python z_run.py --i
-```
-
-### 4) Phone boost scripts banao
-
-```bash
-python z_run.py --qp
-```
-
-Ye banata hai:
-
-- `o0x/b0x.sh` — performance boost (animations, game mode, FF whitelist)  
-- `o0x/g0x.sh` — background apps kill (pre-game)
-
-**Boost apply** (root ya PC se ADB):
-
-```bash
-su -c 'sh o0x/b0x.sh'
-```
-
-Ya PC:
-
-```bash
-adb push o0x/b0x.sh /sdcard/
-adb shell su -c 'sh /sdcard/b0x.sh'
-```
-
-Bina root ke kuch settings nahi lagengi — jo ho sake wo script try karti hai.
-
-### 5) Zyada accurate benchmark (5 runs)
-
-```bash
-python z_run.py --rn 5
+cd storage/shared/Download/FFsensi
 ```
 
 ---
 
-## Game me sensi lagana
+### Run FFsensi
 
-1. Free Fire kholo → **Settings** → **Sensitivity**  
-2. `o0x/x_<tumhara_phone>.txt` kholo (Files / Termux)  
-3. Har line game me same number daalo:
-
-| Output me | Game me |
-|-----------|---------|
-| General | General |
-| Red Dot | Red Dot |
-| 2x | 2x Scope |
-| 4x | 4x Scope |
-| Sniper | AWM / Sniper Scope |
-| Free Look | Free Look |
-
-4. **Training Ground** me 5–10 min test:
-   - Aim zyada tez → sab values **−5**
-   - Aim slow → sab values **+5**
-
----
-
-## Output samajhna
-
-| Line | Matlab |
-|------|--------|
-| `PWR xx/100` | Phone power score (benchmark) |
-| `TIER` | budget / mid / upper_mid / flagship |
-| `LAT` | Touch latency estimate (kam = better) |
-| `HS_MODE ON` | Headshot tuning active (strong device) |
-| `BOOST` | Boost readiness score |
-
----
-
-## Project structure
-
-```
-freefire-sensi-pro/
-  z_run.py      ← main command (yahi chalao)
-  i0x.sh         ← Termux quick start
-  x9k/          ← engine (internal)
-  o0x/          ← tumhari sensi files + boost scripts (auto banenge)
-  README.md     ← ye guide
+```bash
+python3 z_run.py
 ```
 
 ---
 
-## Tips
+# 📂 File Structure
 
-- Background apps band rakho scan se pehle  
-- Battery 40%+ rakho  
-- Game Turbo / Game Space me Free Fire ko **Performance** mode do  
-- Har major update / naye phone par dubara scan chalao  
-- Sensi **official Garena** nahi — smart baseline hai, thumb se ±5 fine-tune karo  
+```text
+FFsensi/
+│
+├── README.md
+│
+├── z_run.py
+│   └── Main launcher file
+│
+├── i0x.sh
+│   └── Auto install & run script
+│
+├── x9k/
+│   │
+│   ├── m7q.py
+│   │   └── Device Detection Engine
+│   │
+│   ├── p4r.py
+│   │   └── Benchmark & Performance Engine
+│   │
+│   ├── s2k.py
+│   │   └── Sensitivity Generator
+│   │
+│   ├── t8n.py
+│   │   └── Boost Script Generator
+│   │
+│   ├── v1u.py
+│   │   └── Terminal UI & Colors
+│   │
+│   └── d8f.json
+│       └── Device Tier Database
+│
+└── o0x/
+    │
+    ├── x_device.txt
+    │   └── Generated Sensitivity
+    │
+    ├── x_device.json
+    │   └── Detailed Scan Report
+    │
+    ├── b0x.sh
+    │   └── Performance Boost Script
+    │
+    └── g0x.sh
+        └── Game Optimization Script
+```
+
+---
+## 🚀 Available Commands
+
+| Command                            | Description                             |
+| ---------------------------------- | --------------------------------------- |
+| `python3 z_run.py`                 | Full Device Scan & Generate Sensitivity |
+| `python3 z_run.py --q`             | Quick Scan Mode                         |
+| `python3 z_run.py --i`             | Show Device Information                 |
+| `python3 z_run.py --qp`            | Generate Performance Scripts            |
+| `python3 z_run.py --rn 5`          | Run Benchmark 5 Times                   |
+| `python3 z_run.py --rn 10`         | Run Benchmark 10 Times                  |
+| `python3 z_run.py --m DEVICE_NAME` | Manual Device Name                      |
+| `bash i0x.sh`                      | Auto Setup & Run FFsensi                |
 
 ---
 
-## Credits
+## 🌐 Follow Us
 
-**@ZenDesh | Developer Sandesh & @URxFF team**
+<p align="center">
 
-## 🎥 Tutorial Video
+<a href="https://t.me/Unknown_Reason">
+<img src="https://img.shields.io/badge/💬%20Telegram-Join%20Now-229ED9?style=for-the-badge&logo=telegram&logoColor=white">
+</a>
 
-[![Watch Tutorial](https://img.shields.io/badge/YouTube-Watch_Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](YOUR_YOUTUBE_VIDEO_LINK)
+ 
+
+<a href="https://youtube.com/@Unknown_Reason">
+<img src="https://img.shields.io/badge/▶️%20YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
+</a>
+
+ 
+
+<a href="https://instagram.com/6_hf0">
+<img src="https://img.shields.io/badge/📸%20Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+</a>
+
+</p>
+
+---
+
+<p align="center">
+
+<a href="https://t.me/Unknown_Reason">
+<img src="https://img.shields.io/badge/@Unknown__Reason-Telegram-blue?style=flat-square&logo=telegram">
+</a>
+
+<a href="https://youtube.com/@Unknown_Reason">
+<img src="https://img.shields.io/badge/@Unknown__Reason-YouTube-red?style=flat-square&logo=youtube">
+</a>
+
+<a href="https://instagram.com/6_hf0">
+<img src="https://img.shields.io/badge/@6__hf0-Instagram-purple?style=flat-square&logo=instagram">
+</a>
+
+</p>
+
+### 📢 Stay Connected
+
+* 💬 Telegram Community Updates
+* 🎥 Tutorial Videos & Guides
+* 📸 Project Updates & Sneak Peeks
+* 🚀 New Releases & Features
+* 🔥 Free Fire Related Tools & Resources
+
+> Follow all social platforms to get the latest updates, tutorials and project releases.
+> 
+
+---
+
+## ❤️ Special Thanks
+
+<p align="center">
+
+<img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" width="180">
+
+</p>
+
+<p align="center">
+
+# 🌟 Sandesh
+
+### Project Developer & Maintainer
+
+<a href="https://t.me/ZenDesh">
+<img src="https://img.shields.io/badge/💙%20Telegram-@ZenDesh-229ED9?style=for-the-badge&logo=telegram&logoColor=white">
+</a>
+
+</p>
+
+> Huge thanks to **Sandesh** for developing, maintaining and continuously improving this project. Your dedication, hard work and countless hours of development made FFsensi possible. 💙
+
+---
+
+## 🤝 Community Support
+
+<p align="center">
+
+<a href="https://t.me/Unknown_Reason">
+<img src="https://img.shields.io/badge/💬%20Telegram-@Unknown__Reason-229ED9?style=for-the-badge&logo=telegram&logoColor=white">
+</a>
+
+ 
+
+<a href="https://t.me/kirrychat">
+<img src="https://img.shields.io/badge/🚀%20Community-@kirrychat-0088cc?style=for-the-badge&logo=telegram&logoColor=white">
+</a>
+
+</p>
+
+
+---
+
+<p align="center">
+
+<b>Made with ❤️ for the Free Fire Community</b>
+
+</p>
