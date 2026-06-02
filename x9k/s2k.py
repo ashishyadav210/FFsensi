@@ -87,7 +87,7 @@ def _k1(_i: _Z0, _p: _P0, _tr: str | None = None) -> dict[str, Any]:
 
 def _k2(_i: _Z0, _r: dict[str, Any], _p: _P0) -> str:
     _sx = _r["sx"]
-    _cr = "@ZenDesh | Developer Sandesh & @URxFF team"
+    _cr = "@ZenDesh | Developer Sandesh & @URxFF team {IG: @6_hf0 & TG/YT: @Unknown_Reason}"
     _ln = [
         "=" * 54,
         "  URxFF EXTREME SENSI ENGINE",
