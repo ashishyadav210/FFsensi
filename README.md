@@ -36,7 +36,7 @@ PC/laptop par test chalega lekin **asli specs + touch nahi padhenge**. Best resu
 3. Termux me:
 
 ```bash
-cd /sdcard/Download/freefire-sensi-pro
+cd /sdcard/Download/FFsensi
 pkg update -y && pkg install -y python
 bash i0x.sh
 ```
@@ -44,7 +44,7 @@ bash i0x.sh
 Ya manually:
 
 ```bash
-cd /path/to/freefire-sensi-pro
+cd /path/to/FFsensi
 python z_run.py
 ```
 
