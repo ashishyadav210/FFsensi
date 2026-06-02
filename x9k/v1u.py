@@ -12,6 +12,7 @@ def _u0() -> None:
 {_C}{_B}================================================
   URxFF EXTREME | @ZenDesh @URxFF
   Developer Sandesh
+  IG: @6_hf0 & TG/YT: @Unknown_Reason
 ================================================{_R}
 """)
 
