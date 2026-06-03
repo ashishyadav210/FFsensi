@@ -93,6 +93,17 @@ python3 z_run.py
 ```
 
 ---
+### Method 2 (Easy)
+
+Run the following commands:
+
+```bash
+pkg install git
+pkg install python
+git clone https://github.com/ashishyadav210/FFsensi.git
+cd FFsensi
+python z_run.py
+```
 
 # 📂 File Structure
 
