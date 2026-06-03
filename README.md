@@ -65,7 +65,7 @@ Watch the complete setup and usage tutorial before running the tool.
 
 ---
 
-### Setup Termux
+### Setup Termux (method 1)
 
 Run the following commands:
 
@@ -93,7 +93,7 @@ python3 z_run.py
 ```
 
 ---
-### Method 2 (Easy)
+# Method 2 (Easy)
 
 Run the following commands:
 
