@@ -51,8 +51,6 @@ Watch the complete setup and usage tutorial before running the tool.
 
 # 📥 Installation
 
-### Download Required Files
-
 <p align="center">
   <a href="https://f-droid.org/repo/com.termux_118.apk">
     <img src="https://img.shields.io/badge/📱%20Download%20Termux-32CD32?style=for-the-badge">
