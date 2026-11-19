@@ -39,7 +39,7 @@ Watch the complete setup and usage tutorial before running the tool.
 
 <p align="center">
 
-<a href="https://youtu.be/TG4_HVtQ7jo">
+<a href="https://youtube.com/shorts/ghGUmvjIxoo">
 <img src="https://img.shields.io/badge/▶️%20WATCH%20TUTORIAL%20ON%20YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
 </a>
 
