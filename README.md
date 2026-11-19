@@ -66,7 +66,6 @@ Watch the complete setup and usage tutorial before running the tool.
 Run the following commands:
 
 ```bash
-termux-change-repo
 pkg update && pkg upgrade -y
 pkg install python
 pkg install git
