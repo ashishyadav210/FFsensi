@@ -58,9 +58,7 @@ Watch the complete setup and usage tutorial before running the tool.
     <img src="https://img.shields.io/badge/📱%20Download%20Termux-32CD32?style=for-the-badge">
   </a>
 
-  <a href="https://github.com/ashishyadav210/FFsensi/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/badge/📦%20Download%20FFsensi%20ZIP-1E90FF?style=for-the-badge">
-  </a>
+  
 </p>
 
 ---
