@@ -65,7 +65,7 @@ Watch the complete setup and usage tutorial before running the tool.
 
 ---
 
-### Setup Termux (method 1)
+### Setup Termux 
 
 Run the following commands:
 
@@ -73,33 +73,7 @@ Run the following commands:
 termux-change-repo
 pkg update && pkg upgrade -y
 pkg install python
-termux-setup-storage
-```
-Allow Storage Permission 
----
-
-### Open FFsensi Folder
-
-```bash
-cd storage/shared/Download/FFsensi-main
-```
-
----
-
-### Run FFsensi
-
-```bash
-python3 z_run.py
-```
-
----
-# Method 2 (Easy)
-
-Run the following commands:
-
-```bash
 pkg install git
-pkg install python
 git clone https://github.com/ashishyadav210/FFsensi.git
 cd FFsensi
 python z_run.py
